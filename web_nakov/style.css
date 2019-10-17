@@ -1,0 +1,292 @@
+body {
+  background-color: #222   	;
+  margin:0;
+  font-family: 'Work Sans',sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: #55d6aa;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  margin-top:25px;
+  padding:10px;
+  background-color: #45c69a;
+  border-radius: 5px;
+}
+
+
+.sheet {
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #ccf;
+}
+
+nav {
+  float: left;
+}
+
+nav ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#pages{
+  padding: 10px;
+  margin-top: 10px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right:70px;
+  margin-top: 10px;
+}
+
+nav li img{
+  padding-top:0px;
+}
+
+nav li {
+  text-transform: uppercase;
+  font-size:20px;
+}
+nav a {
+  color: black;
+  text-decoration:none;
+
+}
+
+.facts {
+  color: black;
+  text-decoration:none;
+
+}
+
+
+nav #pages .sub-menu {
+  display:block;
+  position:absolute;
+  visibility: hidden;
+}
+
+nav #pages:hover .sub-menu {
+  background-color: #35b68a;
+  display:block;
+  position:absolute;
+  visibility: visible;
+}
+.sub-menu {
+  border-radius: 5px;
+  background-color: #45c69a;
+}
+
+.sub-menu li {
+  border-radius: 5px;
+  padding:5px;
+  margin:5px;
+}
+
+.sub-menu li:hover{
+  background-color: #45c69a;
+
+}
+
+.mapbuttons {
+	margin-left: 10px;
+}
+
+.sheetI {
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #f2f2f2;
+}
+
+nav ul li {
+  padding: 10px;
+}
+nav ul li:hover {
+  border-radius: 5px;
+  background-color: #45c69a;
+}
+
+
+.homebtnexo {
+  text-decoration:none;
+  list-style: none;
+
+  color:white;
+
+}
+.homebtnearth {
+  text-decoration:none;
+  list-style: none;
+
+  color:white;
+
+}
+.homebtngas {
+  text-decoration:none;
+  list-style: none;
+
+  color:white;
+
+}
+.homebtnice {
+  text-decoration:none;
+  list-style: none;
+
+  color:white;
+}
+
+
+
+.homebtn {
+  font-size: 250%;
+  background-image: url("th.jpg");
+  border-radius: 10px;
+  border-color: black;
+  margin:10%;
+  padding:5%;
+  align-items: center;
+
+}
+
+.homebtn:hover {
+  border-color: black;
+  background-color: #aaa;
+
+}
+
+
+.homebtnexo:hover {
+  text-decoration:none;
+  list-style: none;
+  background-image: url("CutExo1.png");
+  color:white;
+  border-color:black;
+
+}
+.homebtnearth:hover {
+  text-decoration:none;
+  list-style: none;
+  background-image: url("CutEarth1.png");
+  color:white;
+  border-color:black;
+
+}
+.homebtngas:hover {
+  text-decoration:none;
+  list-style: none;
+  background-image: url("CutGas1.png");
+  color:white;
+  border-color:black;
+
+}
+.homebtnice:hover {
+  text-decoration:none;
+  list-style: none;
+  background-image: url("CutIce1.png");
+  color:white;
+  border-color:black;
+}
+
+.jumbotronmap {
+  margin-top:25px;
+  padding:10px;
+  background-color: #45c69a;
+  border-radius: 5px;
+  background-image: url("big-rocket.png");
+}
+.mapbtn {
+  font-size: 250%;
+  background-image: url("th.jpg");
+  border-radius: 10px;
+  border-color: black;
+  margin:10%;
+  padding:5%;
+  align-items: center;
+
+}
+
+
+.mapbtnUni:hover {
+  text-decoration:none;
+  list-style: none;
+  background-image: url("BtnUni.jpg");
+  color:white;
+  border-color:black;
+
+}
+.mapbtnMilk:hover {
+  text-decoration:none;
+  list-style: none;
+  background-image: url("BtnGalaxy.jpg");
+  color:white;
+  border-color:black;
+
+
+}
+.mapbtnSol:hover {
+  text-decoration:none;
+  list-style: none;
+  background-image: url("BtnSol.jpg");
+  color:white;
+  border-color:black;
+
+}
+.factsbtn {
+  font-size: 250%;
+  background-image: url("th.jpg");
+  border-radius: 10px;
+  border-color: black;
+  margin:10%;
+  padding:5%;
+  align-items: center;
+
+}
+
+
+.factsbtnfacts:hover {
+  text-decoration:none;
+  list-style: none;
+  background-image: url("CutAstroFacts.png");
+  color:white;
+  border-color:black;
+
+}
+.factsbtnkilos:hover {
+  text-decoration:none;
+  list-style: none;
+  background-image: url("CutScales.png");
+  color:white;
+  border-color:black;
+
+}
+.jumbofacts {
+  margin-top:25px;
+  padding:10px;
+  background-color: #45c69a;
+  border-radius: 5px;
+  background-image: url("rocket.png");
+}
+
+.map {
+  border-color: red;
+}
+
+
