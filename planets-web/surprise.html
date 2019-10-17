@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>YAAAAAAAY</title>
+    <style>
+      body {
+        background-color: red;
+      }
+
+      nav #pages:hover .sub-menu {
+        background-color: blue;
+        display:block;
+        position:absolute;
+        visibility: visible;
+      }
+
+      .sub-menu li:hover{
+        background-color: green;
+
+      }
+
+      nav ul li:hover {
+        border-radius: 5px;
+        background-color:black;
+        color:coral;
+      }
+      header {
+        background-color:white;
+      }
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+
+      <div class="container">
+        <nav>
+          <ul>
+
+            <li id="image"> <a href="index.html"> <img src="rocket.png" alt="Home" height="32" width="32" align="middle">  </a> </li>
+            <li id="pages">Pages
+              <ul class="sub-menu">
+                <a href="exo.html"> <li> exo </li> </a> <br>
+                <a href="earth-like.html"> <li> earth-like </li> </a> <br>
+                <a href="gas.html"> <li>  gas </li> </a> <br>
+                <a href="ice.html"> <li> ice </li> </a> <br>
+              </ul>
+            </li>
+            <li class="link"> <a href="map.html"> Maps </a> </li>
+			<li class="link"> <a href="interesting.html"> Facts </a> </li>
+            <li class="link"> <a href="about.html"> About </a> </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+
+    <div class="container">
+      <div style="background-color:white; color:black;" class="jumbotron">
+		
+        <h1>Sooo... you got here.Nice.</h1>
+		<h2>You earned the "Congrats badge" for the biggest fans! Here it is!!!</h2>
+	    <audio id="sound1" src="Congratulations_redacted.mp3" preload="auto"></audio><button onclick="document.getElementById('sound1').play();">Play Congrats Music</button>
+		<img src="Congrats_badge.jpg" height = "100%" width = "100%">
+	  </div>
+    </div>
+  </body>
+</html>
